@@ -1,0 +1,167 @@
+html{
+    height: 100vh;
+}
+body {
+    /*width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    bottom: 0;*/
+    font-family: 'Inter';
+    box-sizing: border-box;
+}
+    
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+}
+
+.bg-image {
+    background-image: url(../access/Rectangle\ 2.png);
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align:center;
+    flex-basis: 50%;
+}
+
+.student_sign {
+    flex-basis: 50%;
+}
+
+.inner-container {
+    width: 100%;
+    max-width: 576px;
+    margin: 0px auto;
+}
+
+.testing {
+    padding: 80px 0px 64px 0px;
+}
+
+.bg-logo {
+    width: 257.12px;
+    height: 58.77px;
+    background-image: url(../access/exquteclogomain.png);
+    background-position: center;
+    background-size: contain;
+    margin: auto;   
+}
+
+.inner-container h1 {
+    font-size: 48px;
+    text-align: center;
+    color: #1E1E1E;
+}
+
+.learn-text {
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.024em;
+    text-align: center;
+    color: rgba(30, 30, 30, 0.8);
+}
+
+form {
+    margin-top: 42px;
+}
+
+.user-section {
+    display: flex;
+}
+
+.user_name {
+    display: flex;
+    width: 140px;
+    height: 21px;
+    padding-bottom: 8px;
+}
+
+.user_text {
+    font-size: 20px;
+    padding-left: 8px;
+    color: #1E1E1EA3;
+}
+
+.last_name {
+    margin-left: 90px;
+}
+
+.user-section input {
+    box-sizing: border-box;
+    padding: 20.23px 0px 13.77px 15px;
+    Width: 234px;
+    font-size: 20px;
+}
+
+.student_course_gender{
+    margin-top: 48px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.user_course {
+    display: flex;
+    width: 193px;
+    height: 24px;
+    padding-bottom: 8px;
+}
+
+.user_gender {
+    display: flex;
+    width: 104px;
+    height: 24px;
+    padding-bottom: 8px;
+}
+
+.select_course {
+    padding: 20.23px 0px 13.77px 15px;
+    width: 292px;
+    font-size: 20px;
+}
+
+.select_gender {
+    padding: 20.23px 0px 13.77px 15px;
+    width: 251px;
+    font-size: 20px;
+}
+
+.button_signup {
+    padding-top: 88px;
+    text-align: center;
+}
+
+.button_signup button {
+    /*height: 54px;
+    width: 470px;*/
+    background-color: #1E1E1E;
+    padding: 16.5px 207.5px;
+    color: #FFFFFF;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0.0294em;
+    border-radius: 10px;
+    border: none;
+}
+
+.button_signup p {
+    padding-top: 32px;
+    color: #1E1E1E;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.0192em;
+}
+
+.button_signup a {
+    color: black;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 24px;
+    letter-spacing: 0.0192em;
+}
