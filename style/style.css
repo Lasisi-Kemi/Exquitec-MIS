@@ -165,3 +165,86 @@ form {
     line-height: 24px;
     letter-spacing: 0.0192em;
 }
+
+/*registration*/
+.container_a {
+    height: 100vh;
+}
+
+.bg-registration {
+    background-image: url(../access/bg1.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 346px;
+}
+
+.register-successful {
+    width: 775px;
+    height: 121px;
+    margin: auto;
+    margin-top: 64px;
+    display: flex;
+}
+
+.register {
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 72px;
+}
+
+.register p {
+    padding: 24px 0px 25px 48px;
+}
+
+.registration_pin {
+    height: 128px;
+    width: 295px;
+    margin: auto;
+    margin-top: 8px;
+}
+
+.id_text {
+    color: rgba(30, 30, 30, 0.8);
+    font-size: 32px;
+    line-height: 48px;
+    letter-spacing: 0.0384em;
+}
+
+.student_id {
+    background-color: rgba(30, 30, 30, 0.64);
+    width: 160px;
+    margin: auto;
+    margin-top: 16px;
+    padding: 8px 0px 8px 0px;
+    color: #FFFFFF;
+    font-size: 32px;
+    line-height: 48px;
+    letter-spacing: 0.0384em;
+    text-align: center;
+}
+
+.student_note {
+    height: 96px;
+    width: 1156px;
+    margin: auto;
+    margin-top: 64px;
+}
+
+.student_note p {
+    color: rgba(30, 30, 30, 0.64);
+    font-size: 32px;
+    line-height: 48px;
+    letter-spacing: 0.0384em;
+    text-align: center;
+}
+
+.student_note a {
+    color: black;
+    font-size: 32px;
+    font-weight: bold;
+    line-height: 48px;
+    letter-spacing: 0.0384em;
+    text-decoration: none;
+}
