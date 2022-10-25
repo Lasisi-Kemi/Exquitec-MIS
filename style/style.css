@@ -15,20 +15,17 @@
 body {
     width: 100%;
     height: 100vh;
-    position: fixed;
-    top: 0;
-    bottom: 0;
-    box-sizing: border-box;
 }
     
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 .container {
-    height: 100vh;
     display: flex;
+    height: 100vh;
 }
 
 .bg-image {
@@ -48,18 +45,20 @@ body {
     width: 100%;
     max-width: 576px;
     margin: 0px auto;
+    box-sizing: border-box;
 }
 
 .testing {
-    padding: 80px 0px 64px 0px;
+    margin: 40px 0px 22px 0px;
 }
 
 .bg-logo {
     width: 257.12px;
-    height: 58.77px;
+    height: 48.77px;
     background-image: url(../access/exquteclogomain.png);
     background-position: center;
     background-size: contain;
+    background-repeat: no-repeat;
     margin: auto;   
 }
 
@@ -74,15 +73,15 @@ body {
 
 .learn-text {
     font-family: KonsensRegular;
-    font-size: 20px;
-    line-height: 30px;
+    font-size: 18px;
+    line-height: 20px;
     letter-spacing: 0.024em;
     text-align: center;
     color: rgba(30, 30, 30, 0.8);
 }
 
 form {
-    margin-top: 42px;
+    margin-top: 40px;
 }
 
 .user-section {
@@ -110,16 +109,16 @@ form {
 
 .user-section input {
     box-sizing: border-box;
-    padding: 20.23px 0px 13.77px 15px;
+    margin-top: 8px;
+    padding: 15.23px 0px 13px 10px;
     Width: 234px;
     font-family: KonsensRegular;
-    font-size: 20px;
-    font-size: 20px;
+    font-size: 18px;
     letter-spacing: 0.024em;
 }
 
 .student_course_gender{
-    margin-top: 48px;
+    margin-top: 38px;
     display: flex;
     justify-content: space-between;
 }
@@ -146,19 +145,19 @@ form {
 }
 
 .select_course {
-    padding: 20.23px 0px 13.77px 15px;
+    padding: 15.23px 0px 13px 10px;
     width: 292px;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .select_gender {
-    padding: 20.23px 0px 13.77px 15px;
+    padding: 15.23px 0px 13px 10px;
     width: 251px;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .button_signup {
-    padding-top: 88px;
+    padding-top: 44px;
     text-align: center;
 }
 
@@ -166,7 +165,7 @@ form {
     /*height: 54px;
     width: 470px;*/
     background-color: #1E1E1E;
-    padding: 16.5px 207.5px;
+    padding: 12.5px 207.5px;
     color: #FFFFFF;
     font-family: KonsensSemibold;
     font-size: 14px;
@@ -177,7 +176,7 @@ form {
 }
 
 .button_signup p {
-    padding-top: 32px;
+    margin-top: 32px;
     color: #1E1E1E;
     font-family: KonsensRegular;
     font-size: 16px;
@@ -197,6 +196,14 @@ form {
 /*registration*/
 .container_a {
     height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.inner-container_a {
+    width: 100%;
+    max-width: 1156px;
+    margin: 0px auto;
 }
 
 .bg-registration {
@@ -205,29 +212,30 @@ form {
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
-    height: 346px;
+    height: 230px;
 }
 
 .register-successful {
-    width: 775px;
-    height: 121px;
+    width: 680px;
+    height: 90px;
     margin: auto;
-    margin-top: 64px;
+    margin-top: 30px;
     display: flex;
 }
 
 .register {
     font-size: 48px;
     font-weight: 600;
+    font-family: KonsensBold;
     line-height: 72px;
 }
 
 .register p {
-    padding: 24px 0px 25px 48px;
+    padding: 12px 0px 25px 24px;
 }
 
 .registration_pin {
-    height: 128px;
+    height: 125px;
     width: 295px;
     margin: auto;
     margin-top: 8px;
@@ -235,7 +243,9 @@ form {
 
 .id_text {
     color: rgba(30, 30, 30, 0.8);
-    font-size: 32px;
+    text-align: center;
+    font-family: KonsensRegular;
+    font-size: 27px;
     line-height: 48px;
     letter-spacing: 0.0384em;
 }
@@ -244,10 +254,11 @@ form {
     background-color: rgba(30, 30, 30, 0.64);
     width: 160px;
     margin: auto;
-    margin-top: 16px;
+    margin-top: 14px;
     padding: 8px 0px 8px 0px;
     color: #FFFFFF;
-    font-size: 32px;
+    font-family: KonsensRegular;
+    font-size: 28px;
     line-height: 48px;
     letter-spacing: 0.0384em;
     text-align: center;
@@ -257,22 +268,24 @@ form {
     height: 96px;
     width: 1156px;
     margin: auto;
-    margin-top: 64px;
+    margin-top: 34px;
 }
 
 .student_note p {
     color: rgba(30, 30, 30, 0.64);
-    font-size: 32px;
-    line-height: 48px;
+    font-size: 28px;
+    font-family: KonsensRegular;
+    line-height: 35px;
     letter-spacing: 0.0384em;
     text-align: center;
 }
 
 .student_note a {
     color: black;
-    font-size: 32px;
+    font-size: 28px;
     font-weight: bold;
-    line-height: 48px;
+    font-family: KonsensBold;
+    line-height: 35px;
     letter-spacing: 0.0384em;
     text-decoration: none;
 }
@@ -287,16 +300,21 @@ form {
 .inner-container_login h1 {
     font-family: KonsensBold;
     font-size: 48px;
-    line-height: 72px;
+    line-height: 69px;
     letter-spacing: 0.0576em;
     text-align: center;
     color: #1E1E1E;
 }
+
+.form_login {
+    margin-top: 25px;
+}
+
 .learn-text_login {
     padding-top: 0.23px;
     font-family: KonsensRegular;
-    font-size: 20px;
-    line-height: 30px;
+    font-size: 18px;
+    line-height: 20px;
     letter-spacing: 0.024em;
     text-align: center;
     color: rgba(30, 30, 30, 0.8);
@@ -313,22 +331,21 @@ form {
     padding-left: 8px;
     color: #1E1E1EA3;
     font-family: KonsensRegular;
-    font-size: 20px;
+    font-size: 18px;
     letter-spacing: 0.024em;
 }
 
 .login_input {
-    box-sizing: border-box;
-    padding: 17px 0px 17px 16px;
+    margin-top: 8px;
+    padding: 12px 0px 12px 16px;
     Width: 470px;
     font-family: KonsensRegular;
-    font-size: 20px;
-    font-size: 20px;
+    font-size: 18px;
     letter-spacing: 0.024em;
 }
 
 .student_password-login {
-    margin-top: 48px;
+    margin-top: 38px;
 }
 
 .checkbox-section {
@@ -353,10 +370,10 @@ form {
 }
 
 .login_note {
-    padding-top: 48px;
+    padding-top: 20px;
     font-family: KonsensRegular;
-    font-size: 20px;
-    line-height: 30px;
+    font-size: 18px;
+    line-height: 18px;
     letter-spacing: 0.024em;
     text-align: center;
 }
@@ -366,7 +383,7 @@ form {
 }
 
 .button_login {
-    margin-top: 88px;
+    margin-top: 34px;
     text-align: center;
 }
 
@@ -374,7 +391,7 @@ form {
     /*height: 54px;
     width: 470px;*/
     background-color: #1E1E1E;
-    padding: 16.5px 211px;
+    padding: 12.5px 211px;
     color: #FFFFFF;
     font-family: KonsensSemibold;
     font-size: 14px;
@@ -383,10 +400,10 @@ form {
 }
 
 .button_login p {
-    margin-top: 32px;
+    margin-top: 22px;
     font-family: KonsensRegular;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 19px;
     letter-spacing: 0.0192em;
     text-align: center;
 }
@@ -396,6 +413,6 @@ form {
     text-decoration: none;
     font-family: KonsensBold;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 19px;
     letter-spacing: 0.0192em;
 }
