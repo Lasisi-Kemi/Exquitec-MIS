@@ -423,6 +423,17 @@ form {
     letter-spacing: 0.0192em;
 }
 
+.input-password {
+    position: relative;
+}
+
+.icon-eye {
+    position: absolute;
+    right: 20px;
+    top: 55%;
+    transform: translateY(-50%);
+}
+
 /*Dashboard Page */
 .dashboard-list {
     background-color: blueviolet;
