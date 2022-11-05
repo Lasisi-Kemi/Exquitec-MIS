@@ -388,6 +388,17 @@ form {
     font-family: KonsensBold;
 }
 
+.input-password {
+    position: relative;
+}
+
+.icon-eye {
+    position: absolute;
+    right: 20px;
+    top: 55%;
+    transform: translateY(-50%);
+}
+
 .button_login {
     margin-top: 34px;
     text-align: center;
@@ -423,32 +434,23 @@ form {
     letter-spacing: 0.0192em;
 }
 
-.input-password {
-    position: relative;
-}
 
-.icon-eye {
-    position: absolute;
-    right: 20px;
-    top: 55%;
-    transform: translateY(-50%);
-}
 
 /*Dashboard Page */
 .dashboard-list {
-    background-color: blueviolet;
+    background-color: #1E1E1E3D;
     width: 396px;
 }
 
-.flex-inner {
-    background-color: aqua;
+/*.flex-inner {
     width: 100%;
     max-width: 207px;
     margin: 0px auto;
-}
+}*/
 
 .logo_div {
     margin-top: 64px;
+    margin-bottom: 40px;
 }
 
 .dashboard-logo {
@@ -457,21 +459,70 @@ form {
     background-repeat: no-repeat;
     width: 207px;
     height: 47px;
+    margin: auto;
+}
+
+.detail-block{
+    text-align: center;
+}
+
+.detail-block p {
+    margin-bottom: 32px;
+    font-family: KonsensRegular;
+    font-size: 32px;
+    line-height: 48px;
+    letter-spacing: 0.0384em;
+
+}
+
+.detail-block a  {
+    text-decoration: none;
+    color: #1E1E1E;
+
+}
+
+.detail-block p:hover {
+    background-color: rgba(30, 30, 30, 0.24);
+    width: 100%;
+    font-family: KonsensBold;
 }
 
 .user-logo_container {
     background-color: #D9D9D9;
     width: 82px;
     height: 82px;
+    margin: auto;
+    margin-bottom: 40px;
     border-radius: 100%;
+    position: relative;
 }
 
 .user_logo {
     width: 32px;
     height: 32px;
+    position: absolute;
+    right: 25px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.signout-button {
+    margin-top: 68px;
+}
+
+.signout-button button {
+    background-color: transparent;
+    font-family: KonsensBold;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.024em;
+    border: none;
 }
 
 .flex-inner_a {
-    background-color: #1E1E1E;
     width: 1024px;
+}
+
+.welcome-stdname {
+    margin: 88px 0px 0px 24px;
 }
