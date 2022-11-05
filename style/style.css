@@ -560,11 +560,6 @@ form {
     display: flex;
 }
 
-.box-profile {
-
-}
-
-
 .box {
     background-color: #D9D9D9;
     width: 265px;
@@ -591,4 +586,108 @@ form {
 .box-profile a {
     text-decoration: none;
     color: #1E1E1E;
+}
+
+/*biodata page*/
+.biodata-section {
+    margin-left: 24px;
+}
+
+.flex-back {
+    margin: 19px 0px 12px 0px;
+    display: flex;
+}
+
+.flex-back button {
+    background: #1E1E1E3D;
+    margin-left: 752px;
+    padding: 8px 36.5px;
+    color: #1E1E1E;
+    font-family: KonsensRegular;
+    font-size: 20px;
+    line-height: 20px;
+    letter-spacing: 0.024em;
+    border: none;
+}
+
+.welcome-stdname_b {
+    font-family: KonsensRegular;
+    font-size: 40px;
+    letter-spacing: 0.0576em;
+}
+
+.welcome-stdname_b span {
+    font-family: KonsensBold;
+}
+
+.student-info {
+    margin: 10px 0px 10px 0px;
+    color: #1E1E1E;
+    font-family: KonsensRegular;
+    font-size: 26px;
+    line-height: 43px;
+    letter-spacing: 0.0384em;
+}
+
+.detail-of-signup {
+    display: flex;
+    margin-bottom: 18px;
+}
+
+.detail-of-signup p {
+    width: 224px;
+    height: 72px;
+    margin-right: 54px;
+    color: #1E1E1E;
+    font-family: KonsensRegular;
+    font-size: 19px;
+    line-height: 28px;
+    letter-spacing: 0.024em;
+}
+
+.detail-of-signup input {
+    width: 224px;
+    height: 45px;
+    font-family: KonsensRegular;
+    font-size: 20px;
+    letter-spacing: 0.024em;
+    text-align: left;
+
+}
+
+.sponser-section {
+    color: #1E1E1E;
+    font-family: KonsensRegular;
+    font-size: 26px;
+    line-height: 43px;
+    letter-spacing: 0.0384em;
+}
+
+.download-save_button {
+    margin-top: 12px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.download-button {
+    background-color: transparent;
+    margin-right: 100px;
+    padding: 8px 9.5px;
+    font-family: KonsensSemibold;
+    font-size: 14px;
+    letter-spacing: 0.0294em;
+    border: 0.8px solid #1E1E1E;
+    border-radius: 4px;
+}
+
+.save-button {
+    background-color: #1E1E1E;
+    margin-right: 51px;
+    padding: 8px 26.5px;
+    color: #FFFFFF;
+    font-family: KonsensSemibold;
+    font-size: 14px;
+    letter-spacing: 0.0294em;
+    border: none;
+    border-radius: 4px;
 }
