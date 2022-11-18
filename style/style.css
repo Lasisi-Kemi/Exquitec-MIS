@@ -59,7 +59,7 @@ body {
 }
 
 .testing {
-    margin: 40px 0px 22px 0px;
+    margin: 30px 0px 18px 0px;
 }
 
 .bg-logo {
@@ -118,7 +118,6 @@ form {
 }
 
 .user-section input {
-    box-sizing: border-box;
     margin-top: 8px;
     padding: 15.23px 0px 13px 10px;
     Width: 234px;
@@ -205,7 +204,7 @@ form {
 
 /*registration*/
 .container_a {
-    height: 100vh;
+    /*height: 100vh;*/
     display: flex;
     flex-direction: column;
 }
@@ -324,7 +323,7 @@ form {
     padding-top: 0.23px;
     font-family: KonsensRegular;
     font-size: 18px;
-    line-height: 20px;
+    line-height: 16px;
     letter-spacing: 0.024em;
     text-align: center;
     color: rgba(30, 30, 30, 0.8);
@@ -355,7 +354,7 @@ form {
 }
 
 .student_password-login {
-    margin-top: 38px;
+    margin-top: 30px;
 }
 
 .checkbox-section {
@@ -441,6 +440,10 @@ form {
 
 
 /*Dashboard Page */
+.containerdashboard {
+    display: flex;
+}
+
 .dashboard-list {
     background-color: #1E1E1E3D;
     width: 396px;
@@ -511,7 +514,7 @@ form {
 }
 
 .signout-button {
-    margin-top: 48px;
+    margin-top: 68px;
 }
 
 .signout-button button {
@@ -572,6 +575,10 @@ form {
     margin: 45px 100px;
 }
 
+/*.box-profile {
+    margin-bottom: 27.3px;
+}*/
+
 .box-profile p {
     width: 265px;
     font-family: Montserrat;
@@ -593,7 +600,7 @@ form {
 }
 
 .flex-back {
-    margin: 19px 0px 12px 0px;
+    margin: 32px 0px 12px 0px;
     display: flex;
 }
 
@@ -610,8 +617,10 @@ form {
 }
 
 .welcome-stdname_b {
+    margin-top: 3px;
     font-family: KonsensRegular;
-    font-size: 40px;
+    font-size: 48px;
+    line-height: 72px;
     letter-spacing: 0.0576em;
 }
 
@@ -620,7 +629,7 @@ form {
 }
 
 .student-info {
-    margin: 10px 0px 10px 0px;
+    margin: 32px 0px 16px 0px;
     color: #1E1E1E;
     font-family: KonsensRegular;
     font-size: 26px;
@@ -630,23 +639,23 @@ form {
 
 .detail-of-signup {
     display: flex;
-    margin-bottom: 18px;
+    margin-bottom: 32px;
 }
 
 .detail-of-signup p {
-    width: 224px;
-    height: 72px;
+    width: 234px;
+    height: 102px;
     margin-right: 54px;
     color: #1E1E1E;
     font-family: KonsensRegular;
-    font-size: 19px;
-    line-height: 28px;
+    font-size: 20px;
+    line-height: 30px;
     letter-spacing: 0.024em;
 }
 
 .detail-of-signup input {
-    width: 224px;
-    height: 45px;
+    width: 234px;
+    height: 64px;
     font-family: KonsensRegular;
     font-size: 20px;
     letter-spacing: 0.024em;
@@ -655,15 +664,16 @@ form {
 }
 
 .sponser-section {
+    margin-bottom: 16px;
     color: #1E1E1E;
     font-family: KonsensRegular;
-    font-size: 26px;
-    line-height: 43px;
+    font-size: 32px;
+    line-height: 48px;
     letter-spacing: 0.0384em;
 }
 
 .download-save_button {
-    margin-top: 12px;
+    margin: 12px 0px 20px 0px;
     display: flex;
     justify-content: flex-end;
 }
@@ -689,4 +699,145 @@ form {
     letter-spacing: 0.0294em;
     border: none;
     border-radius: 4px;
+}
+
+/*transcript section*/
+.student-detail-transcript p {
+    margin-bottom: 24px;
+    font-family: KonsensRegular;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.024em;
+    color:#1E1E1EA3
+
+}
+
+.student-detail-transcript span {
+    color: #1E1E1E;
+}
+
+.transcript-header h1 {
+    margin-bottom: 16px;
+    font-family: KonsensRegular;
+    font-size: 32px;
+    line-height: 48px;
+    letter-spacing: 0.0384em;
+
+}
+
+.transcript-header table{
+    font-family: KonsensRegular;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.0192em;
+
+}
+
+.download-button-transcript {
+    margin: 30px 0px 30px 0px;
+}
+
+.download-button-transcript button {
+    background-color: transparent;
+    padding: 8px 9.5px;
+    font-family: KonsensSemibold;
+    font-size: 14px;
+    letter-spacing: 0.0294em;
+    border: 0.8px solid #1E1E1E;
+    border-radius: 4px;
+}
+
+/*result*/
+
+.congratulation-section {
+    margin-top: 62px;
+}
+
+.big-rectangle {
+    background-color: #1E1E1E;
+    height: 258px;
+    width: 331px;
+    margin: auto;
+}
+
+.congratulation-section p {
+    height: 113px;
+    width: 742px;
+    margin: auto;
+    margin-top: 20px;
+    font-family: KonsensBold;
+    font-size: 32px;
+    line-height: 48px;
+    letter-spacing: 0.0384em;
+    text-align: center;
+
+/*styleName: 32 bold;
+
+font-size: 32px;
+line-height: 48px;
+letter-spacing: 0.0384em;
+text-align: center;
+
+//styleName: H3 bold;
+font-family: KonsensBold;
+font-size: 48px;
+line-height: 72px;
+letter-spacing: 0.0576em;
+text-align: center;*/
+
+}
+
+.name-of-student {
+    font-family: KonsensRegular;
+}
+
+/* test section */
+.test-section {
+    margin-top: 46px;
+}
+
+.test-title {
+    margin-bottom: 16px;
+    font-family: KonsensLight;
+    font-size: 32px;
+    line-height: 48px;
+    letter-spacing: 0.0384em;
+}
+
+/* staff login */
+.bg-image_staff {
+    background-image: url(../access/staff_pic.png);
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align:center;
+    flex-basis: 50%;
+}
+
+/*  Staff login */
+.checkbox-section_staff {
+    margin-top: 20px;
+}
+
+/*Staff sign up */
+.learn-textstaff {
+    margin-top: 10px;
+}
+
+/* staff registration */
+.bg-registration_staff {
+    background-image: url(../access/staff-registration-bg.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 230px;
+}
+
+.register-successful_staff {
+    margin-top: 50px;
+}
+
+.student_note_staff {
+    margin-top: 40px;
 }
