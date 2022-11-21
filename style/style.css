@@ -855,3 +855,92 @@ text-align: center;*/
 .save-button_staff {
     margin-left: 721px;
 }
+
+/* Staff view biodata section */
+
+.view-info {
+    margin: 32px 0px 16px 0px;
+    font-family: KonsensLight;
+    font-size: 32px;
+    line-height: 48px;
+    letter-spacing: 0.0384em;
+    text-align: left;
+}
+
+/* staff report section */
+
+.gen-text_staff {
+    margin-bottom: 16px;
+}
+
+/* Report upload section */
+.detail-text-upload {
+    margin-bottom: 16px;
+    font-family: KonsensLight;
+    font-size: 32px;
+    line-height: 48px;
+    letter-spacing: 0.0384em;
+    color: #1E1E1E;
+}
+
+.detail-of-upload {
+    display: flex;
+    margin-bottom: 32px;
+}
+
+.detail-of-upload p {
+    width: 234px;
+    height: 102px;
+    margin-right: 54px;
+    color: #1E1E1E;
+    font-family: KonsensRegular;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.024em;
+}
+
+.detail-of-upload input {
+    margin-top: 8px;
+    width: 234px;
+    height: 64px;
+    font-family: KonsensRegular;
+    font-size: 20px;
+    letter-spacing: 0.024em;
+    text-align: left;
+
+}
+
+.textarea-section textarea {
+    width: 910px;
+    height: 156px;
+}
+
+.drag-and-drop {
+    width: 910px;
+    height: 121px;
+    margin-top: 90px;
+    border: 1px dashed #1E1E1E;
+}
+
+.alternative-to-upload {
+    text-align: center;
+}
+
+.alternative-text-upload {
+    margin: 60px 0px 24px 0px;
+    font-family: KonsensRegular;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.0192em;
+}
+
+.alternative-to-upload button {
+    background-color: transparent;
+    padding: 8px 13px 8px 13px;
+    font-family: KonsensSemibold;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0.0294em;
+    border: 0.8px solid #1E1E1E;
+    border-radius: 4px;
+}
