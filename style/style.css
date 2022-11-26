@@ -18,6 +18,11 @@
     src: url(../otf/KonsensLight.otf);
 }
 
+@font-face {
+    font-family: KonsensMedium;
+    src: url(../otf/KonsensMedium.otf);
+}
+
 body {
     width: 100%;
 }
@@ -358,8 +363,8 @@ form {
 }
 
 .checkbox-section {
-    width: 131px;
-    height: 24px;
+    /*width: 131px;
+    height: 24px;*/
     margin-top: 8px;
     display: flex;
     align-items: center;
@@ -582,12 +587,21 @@ form {
 .box-profile p {
     width: 265px;
     font-family: Montserrat;
-    font-size: 22px;
+    font-size: 24px;
     font-weight: 600;
     line-height: 36px;
     letter-spacing: 0.0288em;
     text-align: center;
 }
+
+/*.box-profile p {
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    letter-spacing: 0.0288em;
+}*/
+
 
 .box-profile a {
     text-decoration: none;
@@ -645,7 +659,7 @@ form {
 .detail-of-signup p {
     width: 234px;
     height: 102px;
-    margin-right: 54px;
+    margin-right: 40px;
     color: #1E1E1E;
     font-family: KonsensRegular;
     font-size: 20px;
@@ -891,7 +905,7 @@ text-align: center;*/
 .detail-of-upload p {
     width: 234px;
     height: 102px;
-    margin-right: 54px;
+    margin-right: 24px;
     color: #1E1E1E;
     font-family: KonsensRegular;
     font-size: 20px;
@@ -943,4 +957,100 @@ text-align: center;*/
     letter-spacing: 0.0294em;
     border: 0.8px solid #1E1E1E;
     border-radius: 4px;
+}
+
+/*upload successful page */
+.successful-message {
+    width: 571px;
+    margin: auto;
+    margin-top: 48px;
+    text-align: center;
+}
+
+.successful-message-text {
+    height: 144px;
+    margin-top: 32px;
+    font-family: KonsensMedium;
+    font-size: 42px;
+    line-height: 52px;
+    letter-spacing: 0.0576em;  
+    text-align: center;
+}
+
+.report-link-text {
+    width: 166px;
+    margin: auto;
+    margin-bottom: 40px;
+    padding: 18px 0px;
+    font-family: KonsensSemibold;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0.0294em;
+    text-align: center;
+    border: 0.8px solid #1E1E1E;
+    border-radius: 4px;
+}
+
+.report-link-text a {
+    color: #1E1E1E;
+    text-decoration: none;
+    
+}
+
+/*view  report */
+.view-report-text {
+    margin: 32px 0px 24px 0px;
+    font-family: KonsensLight;
+    font-size: 32px;
+    line-height: 48px;
+    letter-spacing: 0.0384em;
+}
+
+.report-table table {
+    border: 1px solid #1E1E1E;
+}
+
+
+/*create engagement section*/
+.signout-button-engage {
+    margin-bottom: 100px;
+}
+
+.select_gender-priority {
+    margin-top: 8px;
+    width: 126px;
+    height: 64px;
+    font-family: KonsensRegular;
+    font-size: 20px;
+    letter-spacing: 0.024em;
+    text-align: left;
+
+}
+
+.engagement-button {
+    height: 132px;
+    width: 470px;
+    margin: auto;
+    margin-top: 46px;   
+}
+
+.engagement-button button {
+    padding: 16.5px 211.5px;
+    font-family: KonsensSemibold;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0.0294em;
+    border-radius: 10px;
+}
+
+.create-button {
+    background-color: #1E1E1E;
+    color: #FFFFFF;
+    border: none;
+}
+
+.cancle-button {
+    background-color: transparent;
+    margin: 24px 0px 24px 0px;
+    border: 0.8px solid #000000;
 }
