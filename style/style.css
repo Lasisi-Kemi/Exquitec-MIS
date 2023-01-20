@@ -47,6 +47,7 @@ body {
 }
 
 .containerd-section {
+    width: 100%;
     max-width: 728px;
     margin: 35px auto;
 
