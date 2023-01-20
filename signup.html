@@ -12,7 +12,7 @@
         <title>Student Signup</title>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-        <link rel="icon" type="access/png" href="access/exquteclogomain.png">
+        <link rel="icon" type="access/png" href="access/exquitecFavIcon 1.png">
         <!--<link rel="stylesheet" type="text/css" href="./style/bootstrap.min.css">-->
         <link rel="stylesheet" type="text/css" href="./style/style.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -33,7 +33,7 @@
                     </div>
                     <h1>Students Registration</h1>
                     <p class="learn-text">Learn | UnLearn | ReLearn</p>
-                    <form>
+                    <section>
                         <div class="form_student">
                             <div class="user-section">
                                 <div>
@@ -43,7 +43,7 @@
                                             </svg></p>
                                         <p class="user_text">First Name</p>
                                     </div>
-                                    <p><input type="text" name="" placeholder="Enter First Name"></p>
+                                    <p><input type="text" name="" placeholder="Enter First Name" id="firstname"></p>
                                 </div>
                                 <div class="last_name">
                                     <div class="user_name">
@@ -52,7 +52,7 @@
                                             </svg></p>
                                         <p  class="user_text">Last Name</p>
                                     </div>
-                                    <p><input type="text" name="" placeholder="Enter last Name"></p>
+                                    <p><input type="text" name="" placeholder="Enter last Name" id="lastname"></p>
                                 </div>
                             </div>
                             <div class="student_course_gender">
@@ -64,7 +64,7 @@
                                             </p>
                                         <p class="user_texts">Course of Study</p>
                                     </div>
-                                    <select class="select_course">
+                                    <select class="select_course" id="course">
                                          <option>Select Course of Study</option>
                                          <option>Backend Development(Basic- Php/Python)</option>
                                          <option>Backend Development(Intermiate- Php/Python)</option>
@@ -88,7 +88,7 @@
                                             </svg></p>
                                         <p class="user_texts">Gender</p>
                                     </div>
-                                    <select class="select_gender">
+                                    <select class="select_gender" id="gender">
                                         <option>Select Gender</option>
                                         <option>Male</option>
                                         <option>Female</option>
@@ -96,16 +96,16 @@
                                 </div>
                         </div>
                         <div class="button_signup">  
-                            <button>Sign Up</button>
-                            <p>Already have an account? <a href="index.html">Sign In</a></p>
+                            <button id="signupbutton">Sign Up</button>
+                            <p>Already have an account? <a href="studentlogin.html">Sign In</a></p>
                         </div>          
-                    </form>
+                    </section>
                 <div>
 
             </div>
         </div>
-        <script src="./Js/jquery-3.6.1.min.js"></script>
-        <script src="./Js/bootstrap.min.js"></script>
+        <script src="./Js/constant.js"></script>
+        <script src="./js/axios.min.js" ></script>
         <script src="./Js/script.js"></script>
     </body>
 </html>
